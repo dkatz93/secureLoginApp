@@ -47,7 +47,7 @@
   \******************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(/*! /Users/daniellekatz93/Fullstack/Secure-login-all/secureLogin/src/client/jsx/index.jsx */1);
+	module.exports = __webpack_require__(/*! /Users/daniellekatz93/Fullstack/secureLoginAll/secureLogin-part2/src/client/jsx/index.jsx */1);
 
 
 /***/ },
@@ -102,7 +102,8 @@
 	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/signup', component: _SignupForm2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/login', component: _LoginForm2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: '/posts', component: _Post2.default })
+	    _react2.default.createElement(_reactRouter.Route, { path: '/posts', component: _Post2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/logout', component: LogoutForm })
 	  )
 	);
 	
@@ -27610,6 +27611,15 @@
 	              _reactRouter.Link,
 	              { to: '/signup' },
 	              'SIGNUP'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            { className: 'active' },
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/login' },
+	              'LOGOUT'
 	            )
 	          )
 	        )

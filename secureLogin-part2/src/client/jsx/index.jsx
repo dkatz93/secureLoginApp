@@ -18,6 +18,7 @@ const rootRouter = (
       <Route path="/signup" component={SignupForm} />
       <Route path="/login" component={LoginForm} />
       <Route path="/posts" component={Post} />
+      <Route path="/logout" component={LogoutForm} />
     </Route>
   </Router>
 );

@@ -1,0 +1,8 @@
+node_modules
+secrets
+.DS_Store
+npm-debug.log
+src/client/assets/javascript/bundle.js
+src/client/assets/javascript/bundle.js.map
+src/client/assets/stylesheets/style.css
+src/client/assets/stylesheets/style.css.map
